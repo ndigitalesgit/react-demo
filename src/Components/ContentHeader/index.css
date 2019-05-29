@@ -1,0 +1,30 @@
+
+.content-header {
+    padding: 15px 15px 0 15px;
+    position: relative;
+}
+.content-header h1 {
+    font-size: 24px;
+}
+.content-header .breadcrumb {
+    border-radius: 2px;
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    padding: 7px 5px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.content-header .breadcrumb a {
+    color: #444;
+    text-decoration: none;
+}
+.content-header .breadcrumb .active {
+    color: #777;
+}
+.content-header .breadcrumb li+li::before {
+    content: '>\00a0';
+    padding: 0 5px;
+    color: #ccc;
+}

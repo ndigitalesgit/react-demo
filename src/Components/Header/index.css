@@ -1,0 +1,14 @@
+
+.app-header {
+    background-color: #efefef;
+    position: fixed;
+    left: 0;
+    right: 0px;
+}
+.app-header .navbar-brand {
+    flex: 1;
+}
+.app-header .logo {
+    width: 50px;
+    vertical-align: -10px;
+}
